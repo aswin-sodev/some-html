@@ -1,0 +1,267 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background:transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+}
+.intor{
+	background-color:black;
+}
+.tech{
+	color:red;
+	font-size: 50px;
+	font-style: bold;
+}
+body {
+	font-family:Arial;
+	font-size: 17px;
+	color: #333;
+	overflow-x: hidden;
+	min-width: 320px;
+}
+
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 20px;
+	font-family: 'open_sanslight';
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+	font-size:20px;
+}
+.wrapper {
+	background-image:url("https://edge.alluremedia.com.au/m/l/2014/01/ProgrammerFuture.jpg");
+	height:700px;
+	width:auto;
+	margin: 0 auto;
+}
+.intor{
+	font-color:black;
+}
+.button {
+	display:url("https://chat.whatsapp.com/J94FSIg3PlOHdM5nsVUJ22");
+	padding: 17px 55px;
+	color: black;
+	border-radius: 50px;	
+}
+.bg-yellow{
+	background:white;
+}
+.button1{
+	display: inline-block;
+	padding: 17px 55px;
+	color: white;
+	border-radius: 50px;
+	background:black;
+}
+.card{
+	background:black;
+	border-radius: 5px;
+    -webkit-box-shadow:0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow:0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow:0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 60px 70px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+header{
+	text-align: right;
+	line-height: 80px;	
+}
+header h1 {
+	width: 80px;
+	float: left;
+}
+header h1 a {
+	display: block;
+}
+header h1 a img {
+	display: block;
+	width: 100%;
+}
+header nav {
+	text-align: right;    
+}
+header nav ul li {
+	border-radius: 2px;
+    -webkit-box-shadow:0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow:0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow:0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 20px 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+	text-align: center;
+	border-radius: 50px;
+	margin-right: 35px;
+    line-height: 60px;
+}
+header nav ul li:last-child {
+	margin-right: 0;	
+}
+header nav ul li:last-child a {
+	display: inline-block;	
+}
+header nav ul li a {
+	color:black;	
+	display: inline-block;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'open_sansregular';
+}
+#spotlight {
+	margin-top: 15%;
+	text-align: center;
+}
+#spotlight div.content h1 {
+	text-align: center;
+	font-size: 60px;
+	color:red;
+	font-family: 'open_sanssemibold';
+}
+#spotlight div.content p {
+	color:#fff;
+	font-size: 16px;
+	width: 75%;
+	margin:2% auto;
+}
+#spotlight div.content a.button{
+	background:white;
+	font-size: 18px;
+    font-weight: bold;
+    padding: 20px 55px;
+}
+#about{
+	background:black;	
+}
+
+#about div.widget{
+	float: left;
+	width: 33.33%;
+	text-align: center;
+	padding: 100px 60px;	
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#about div.widget.middle{
+	border-right: 0.5px solid #D1A223;
+	border-left: 0.5px solid #D1A223;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background:white;	
+}
+#about div.widget.last{
+    border-right:0;
+    background-color:black;
+}
+#about small {
+	display: inline-block;
+	width: 120px;
+	height:120px;
+	border: 2px solid #D1A223;
+	border-radius: 50%;
+	padding: 15px;
+	margin:0 auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#about small span{
+	width:86px;
+	height:80px;
+	background:url("../images/sprite.png");
+	display: inline-block;
+	margin:0 auto;
+}
+#about div.widget small span.icon{
+	background-position: -155px -79px;
+} 
+#about div.widget.middle small span.icon{
+	background-position: 7px -77px;
+
+}
+#about div.widget.last small span.icon{
+	background-position: -71px -77px;
+}
+#about div.widget h3 {
+	color:blue;
+	font-size: 45px;
+	margin: 3% auto;
+	font-family: 'open_sansregular';
+	font-weight: bold;
+}
+#about div.widget p{
+	color:red;
+}
+#middle{
+	padding: 5% 0;
+	text-align: center;
+	background-color:black;
+}
+#middle h2{
+	font-size: 45px;
+	color:black;
+	font-weight:bold;
+	margin-bottom: 5%;
+	font-family: 'open_sanssemibold';
+}
+#middle ul{
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    margin-bottom: -4%;
+}
+#middle ul li{
+	width: 48%;
+	margin-right: 4%;
+	margin-bottom: 4%;
+	text-align: center;
+	float: left;
+}
+#middle ul li div.content  h3{
+	margin: 3% 0;
+}
+#middle ul li div.content p{
+	margin:0 auto 4%;
+	color: red;
+}
+#middle ul li img{
+	width:22%;
+	display: block;
+	margin:0 auto;
+}
+#middle ul li div.content h3 a{
+	text-transform: uppercase;
+	color: #FBC641; 	
+	font-family: 'open_sanssemibold';
+    font-size: 30px;
+}
+#middle ul li:last-child{
+	margin-right: 0;
+}
+#middle ul li div.content a.button{
+	font-size: 18px;
+	font-weight: bold;
+}
